@@ -7,8 +7,8 @@
         android:id="@+id/main"
         android:layout_width="match_parent"
         android:layout_height="match_parent"
-        tools:context=".MainActivity">
-        <androidx.appcompat.widget.AppCompatTextView
+        tools:context=".SplashActivity.ActivitySecond">
+        <androidx.appcompat.widget.AppCompatImageView
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             app:layout_constraintTop_toTopOf="parent"
@@ -16,11 +16,22 @@
             app:layout_constraintRight_toRightOf="parent"
             app:layout_constraintLeft_toLeftOf="parent"
             app:layout_constraintVertical_bias="0.5"
-            android:text="Dash Board Screen"
-            android:textAlignment="center"
-            android:textAppearance="@color/black"
+            android:src="@drawable/batman"
+            android:padding="10dp">
+        </androidx.appcompat.widget.AppCompatImageView>
+        <androidx.appcompat.widget.AppCompatTextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintRight_toRightOf="parent"
+            app:layout_constraintLeft_toLeftOf="parent"
+            app:layout_constraintVertical_bias="0.8"
+            android:text="Splash Screen 2"
+            android:textSize="25sp"
             android:textColor="@color/black"
-            android:textSize="25sp">
+            android:textAlignment="center"
+            android:textAppearance="@color/black">
         </androidx.appcompat.widget.AppCompatTextView>
     </androidx.constraintlayout.widget.ConstraintLayout>
 </layout>
